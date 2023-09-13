@@ -1,0 +1,124 @@
+.team_section{
+    width: 100%;
+    height: fit-content;
+    padding: 70px 30px;
+    background-color: #150811;
+    .team_content_section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.content_box{
+    h5{
+        color: #6B012A;
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+    p{
+        // width: 60%;
+        color: #bec0c2;
+        font-weight: 400;
+    }
+}
+.button_section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .learn-more-button a{
+        padding: 0.5em 2em;
+        text-align: center;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(92, 16, 45);
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 400;
+    }
+}
+.owl-nav button.owl-next span,
+.owl-nav button.owl-prev span {
+    z-index: 10;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    font-size: 55px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    background:linear-gradient(145deg, #0b92dc 0%, #0b92dc 100%);
+    opacity: .5;
+}
+
+.owl-nav button.owl-next span:hover,
+.owl-nav button.owl-prev span:hover {
+    opacity: 1;
+}
+
+.owl-nav button.owl-next span {
+    position: absolute;
+    right: 50px;
+    top: 300px;
+}
+
+.owl-nav button.owl-prev span {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}
+.owl-dots .owl-dot span {
+    width: 30px;
+    height: 7px;
+}
+.owl-dot.active span {
+    background-color:#0b92dc!important;
+}
+
+.lawyer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team_img_box, .team_img_box2{
+    width: 80%;
+}
+.team_text_box{
+    background: linear-gradient(0deg, rgb(49 2 20) 35%, rgb(99 9 43) 100%);
+    text-align: center;
+    padding: 19px 47px;
+    border-radius: 69px;
+    width: 97%;
+    color: #fff;
+    margin-top: -60px;
+    h6{
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    h5{
+        font-size: 20px;
+        color: #fca118;
+    }
+}
+
+// Model Popup Box
+
+.modal-dialog{
+    max-width: 75% !important;
+}
+
+@media (max-width: 768px){
+    .button_section{
+        display: none;
+    }
+}
